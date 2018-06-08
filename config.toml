@@ -1,0 +1,303 @@
+baseURL = "http://mgear-framework.com/"
+languageCode = "en-us"
+title = "mGear Framework"
+theme = "hugo-elate-theme"
+
+[params]
+
+custom_css = ["css/custom1.css", "css/custom2.css"]
+
+# Meta
+author = ""
+description = "mGear"
+email = "hello@mgear-framework.com"
+# Navigation
+[params.navigation]
+brand = "mGear"
+home = "Home"
+work = "Works"
+testimonials = "Testimonials"
+services = "Services"
+about = "About"
+contact = "Contact"
+
+# You can add custom links before or after the default links
+# Assign a weight to define the order
+
+# prepended links
+#[[menu.prepend]]
+#  url = "http://gohugo.io"
+#  name = "Hugo"
+#  weight = 10
+
+# postpended links
+[[menu.postpend]]
+ url = "http://forum.mgear-framework.com/"
+ name = "Forum"
+ weight = 10
+[[menu.postpend]]
+ url = "http://www.mgear-framework.com/jp/"
+ name = "日本語"
+ weight = 10
+
+# Hero section
+[params.hero]
+title = "mGear Framework"
+subtitle = "Open source rigging and animation framework for Autodesk&reg; Maya&reg;."
+
+# Intro section
+# Available icons: http://simplelineicons.com/
+[params.intro]
+
+[[params.intro.item]]
+title = "Goal"
+description = "Provide a solid framework for rigging and animation tools development."
+url = "http://forum.mgear-framework.com/"
+button = "Join the community"
+icon = "icon-rocket"
+img = "img_7.jpg"
+
+[[params.intro.item]]
+title = "Documentation"
+description = "API documentation and examples"
+url = "http://www.mgear-framework.com/mgear/"
+button = "Official Docs"
+icon = "icon-book-open"
+img = "img_8.jpg"
+
+[[params.intro.item]]
+title = "Get it!"
+description = 'mGear is totally free and open source. But your money could still be helpful somewhere else. Please consider a donation to <a href="https://dons.medecinsdumonde.org/b/my-donation" target="_blank">Medecins du Monde</a>.'
+url = "https://github.com/mgear-dev/mgear/releases"
+button = "Download"
+icon = "icon-cloud-download"
+img = "img_10.jpg"
+
+[params.intro.video]
+enable = false
+title = "Watch the video"
+icon = "icon-play2"
+url = "https://vimeo.com/channels/staffpicks/93951774"
+
+
+# Work section
+[params.work]
+enable = true
+title = "Works using mGear"
+description = 'Production showcase from mGear users. Watch more samples and videos in the <a href="http://forum.mgear-framework.com/c/finished-work" target="_blank">Forum Finished Work category</a> '
+footertext = '** All images are copyright &copy; to their respective owners'
+
+[[params.work.row]]
+  img = "works/geoff.png"
+  alt = "Heinz - Geoff"
+  title = "Heinz - Geoff "
+  subtitle = "www.assemblyltd.com"
+
+[[params.work.row]]
+  img = "works/studioAKA_mGear_A.jpg"
+  alt = "SAN PELLEGRINO"
+  title = "SAN PELLEGRINO"
+  subtitle = "www.studioaka.co.uk"
+
+ [[params.work.row]]
+  img = "works/studioAKA_mGear_B.jpg"
+  alt = "SAN PELLEGRINO"
+  title = "SAN PELLEGRINO"
+  subtitle = "www.studioaka.co.uk"
+
+# [[params.work.row]]
+#   img = "work_4.jpg"
+#   alt = "Image4"
+#   title = "Project 4"
+#   subtitle = "Design"
+
+# [[params.work.row]]
+#   img = "work_5.jpg"
+#   alt = "Image5"
+#   title = "Project 5"
+#   subtitle = "Design"
+
+# [[params.work.row]]
+#   img = "work_6.jpg"
+#   alt = "Image6"
+#   title = "Project 6"
+#   subtitle = "Design"
+
+# Testimonials section
+[params.testimonials]
+enable = true
+title = "Testimonials"
+# description = ""
+
+[[params.testimonials.item]]
+  quote = "&ldquo;Miquel did an amazing job making mGear a solid Production tool. I am delighted to see it running smoothly in Maya. Softimage User will be delighted to find their favorite Rig Builder in Maya. Maya user will be amazed how MGear is solid and flexible. Gear has been used in production all around the world since 2010 and changed the life of many riggers and animators, I have no doubt that mGear will have the same success. Do I need to mention it’s free and open source ?&rdquo;"
+  person = 'Jeremie Passerin, Technical Animation Supervisor at  <a href="http://www.blur.com/" target="_blank">Blur Studio</a> <span class="subtext">Technical Director</span>'
+  img = "jeremie_avatar.jpg"
+  alt = "Person2"
+
+ [[params.testimonials.item]]
+  quote = "&ldquo;In our studio we  work on huge shows, and mgear has proven itself extremely reliable, fast and simple! The framework enables our riggers to keep iterate and improve even on the most complicated rigs very quickly, so we don't need to compromise on our animation quality..&rdquo;"
+  person = 'Lior Ben Horin, CG Supervisor at <a href="http://www.snowballvfx.com/	" target="_blank">Snowball Studios</a> <span class="subtext">Technical Artist</span>'
+  img = "Lior_logo.png"
+  alt = "Lior Ben Horin"
+
+  [[params.testimonials.item]]
+  quote = "&ldquo;Miquel did an absolutely stellar job in bringing what we loved about Gear in XSI to Maya with mGear. We look forward to every release as it just gets better and better with its on-going support. On our projects, the small rigging department is normally faced with a large number of unique characters to rig in a short space of time. mGear allows us to bring solid and time-tested rigs to our animators. mGear is our go-to solution for a fast and iterative rigging process. It's easy to learn and use and the potential of expanding Shifter with custom components using the mGear framework is an aspect we are very excited about.&rdquo;"
+  person = 'Marthinus Wessels, Character Supervisor at <a href="https://www.triggerfish.com/" target="_blank">Triggerfish Animation Studios</a> <span class="subtext">Character Animator</span>'
+  img = "marthinus_avatar.jpg"
+  alt = "Marthinus Wessels"
+
+  [[params.testimonials.item]]
+  quote = "&ldquo;We have been using mGear in the studio since switching to Maya and it has become an integral part of our 3d workflow. The speed we can get a rig to the animators whilst continuing to finesse and rebuild has been a real game changer.&rdquo;"
+  person = 'Adam Avery, Rigger at <a href="https://www.studioaka.co.uk/" target="_blank">Studio AKA</a> <span class="subtext">CG Artist</span>'
+  img = "www.studioaka.co.uk.png"
+  alt = "Adam Avery"
+
+  [[params.testimonials.item]]
+  quote = "&ldquo;At Assembly we work on a wide range of different jobs with varying styles, and mGear fits our pipeline perfectly. Being able to publish ready-to-animate rigs in a matter of minutes allowing time to refine & build upon the rigs without causing bottlenecks has been incredibly powerful. Building custom shifter components only opens up the possibilities even further! All the animators really enjoy working with the rigs from mGear, and we wouldn't be without it!&rdquo;"
+  person = 'Geoff Kirk-Smith, Character Technical Director at <a href="https://www.assemblyltd.com/" target="_blank">Assembly</a> <span class="subtext">Character TD & Animator</span>'
+  img = "assembly_avatar.jpg"
+  alt = "Geoff Kirk-Smith"
+
+
+
+
+# Services section
+[params.services]
+enable = false
+title = "Services"
+description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+[[params.services.item]]
+  title = "Brand &amp; Strategy"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  icon = "icon-anchor"
+
+[[params.services.item]]
+  title = "Web &amp; Interface"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  icon = "icon-layers2"
+[[params.services.item]]
+  title = "Photo &amp; Video"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  icon = "icon-video2"
+
+  [[params.services.item]]
+  title = "CMS &amp; eCommerce"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  icon = "icon-monitor"
+
+# About section
+[params.about]
+enable = true
+title = "About"
+description = "mGear is an open source project started by Jeremie Passerin and continued by Miquel Campos. Many contributors have helped in the development over the years. Currently the main development team is:"
+
+  [[params.about.item]]
+    name = "Miquel Campos"
+    position = "Lead Developer"
+    description = "Rigging supervisor at <a href=\"http://www.studioanima.co.jp/\" target=\"_blank\">Studio Anima</a>. mGear's Maintainer & Lead Developer. His mantra is: \"Characters+Animation+Storytelling\""
+    img = "miquel_avatar.jpg"
+    alt = "Miquel Campos"
+    social = [
+      ["icon-twitter", "https://twitter.com/MiquelCamposTD"],
+      ["icon-link", "http://www.miquel-campos.com/"]
+    ]
+  [[params.about.item]]
+    name = "Rafael Villar"
+    position = "Developer"
+    description = "Senior Rigger TD at <a href=\"http://www.studioanima.co.jp/\" target=\"_blank\">Studio Anima</a>. Experience in rigging and techanim from various VFX shops. Focusing on pipeline development."
+    img = "rafael_avatar.png"
+    alt = "Rafael Villar"
+    social = [
+      ["icon-twitter", "https://twitter.com/RitterRav"],
+      ["icon-link", "http://ravrigs.com//"]
+    ]
+
+  [[params.about.item]]
+    name = "Jerome Drese"
+    position = "Developer"
+    description = "Head of rigging at <a href=\"http://grid-vfx.com/\" target=\"_blank\">Grid-VFX</a>. Focusing on animation needs and building the rigging pipeline."
+    img = "jerome_avatar.jpg"
+    alt = "Jerome Drese"
+    social = [
+      ["icon-link", "http://www.jerome3d.be/"]
+    ]
+  # [[params.about.item]]
+  #   name = "You?"
+  #   position = "Next Contributor"
+  #   description = "mGear community is always open to new contributors to help with the development."
+  #   img = "person1.jpg"
+  #   alt = "Person1"
+  #   social = []
+
+
+# Counters section
+[params.counters]
+enable = false
+title = "Stats"
+background = "full_image_1.jpg"
+
+[[params.counters.item]]
+  description = "Finished projects"
+  icon = "icon-briefcase"
+  from = 0
+  to = 89
+  interval = 50
+  speed = 5000
+
+[[params.counters.item]]
+  description = "Lines of code"
+  icon = "icon-code"
+  from = 0
+  to = 2343409
+  interval = 50
+  speed = 5000
+
+[[params.counters.item]]
+  description = "Cups of coffee"
+  icon = "icon-cup"
+  from = 0
+  to = 1302
+  interval = 50
+  speed = 5000
+
+[[params.counters.item]]
+  description = "Happy clients"
+  icon = "icon-people"
+  from = 0
+  to = 52
+  interval = 50
+  speed = 5000
+
+# Contact section
+[params.contact]
+enable = true
+map = false
+form = true
+title = "Get in touch"
+description = "Don't hesitate to contact us anytime, but please, read the contact criteria before use this form. Thanks!"
+
+# Available icons: http://simplelineicons.com/
+details = [
+	["icon-notebook", "CONTACT CRITERIA:"],
+    ["icon-question", "For general user questions, bug reports and feedback, please use the <a href=\"http://forum.mgear-framework.com/\" target=\"_blank\">Forum</a>."],
+    ["icon-question", "mGear is free and open source, under MIT license. At this point we can't guarantee any support."],
+    ["icon-question", "For any business related inquiries, or if you wish to contribute to development. Use this form."],
+    ["icon-exclamation", "Please understand that due the high volume of traffic there may be a delay in our reply."]
+  ]
+
+name = "Name"
+email = "Email"
+# phone = "Phone"
+message = "Message"
+button = "Send message"
+
+# Footer section
+[params.footer]
+enable = true
+copyright = '&copy; Jeremie Passerin and Miquel Campos. All Rights Reserved.'
+links = [
+        ["icon-youtube", "https://www.youtube.com/c/mgearriggingframework"],
+        ["icon-social-github", "https://github.com/mgear-dev"]
+  ]
