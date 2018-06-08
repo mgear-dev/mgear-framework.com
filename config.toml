@@ -223,13 +223,13 @@ description = "mGear is an open source project started by Jeremie Passerin and c
     social = [
       ["icon-link", "http://www.jerome3d.be/"]
     ]
-  # [[params.about.item]]
-  #   name = "You?"
-  #   position = "Next Contributor"
-  #   description = "mGear community is always open to new contributors to help with the development."
-  #   img = "person1.jpg"
-  #   alt = "Person1"
-  #   social = []
+  [[params.about.item]]
+    name = "You?"
+    position = "Next Contributor"
+    description = "mGear community is always open to new contributors to help with the development."
+    img = "person1.jpg"
+    alt = "Person1"
+    social = []
 
 
 # Counters section

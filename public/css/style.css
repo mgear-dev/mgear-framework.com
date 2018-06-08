@@ -972,8 +972,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 80px 30px 30px 30px;
   float: left;
   width: 100%;
+  height: 380px;
   position: relative;
-  /*margin-bottom: 100px;*/
+  margin-bottom: 100px;
 }
 @media screen and (max-width: 992px) {
   .fh5co-person {
