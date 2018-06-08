@@ -296,7 +296,7 @@ button = "Send message"
 # Footer section
 [params.footer]
 enable = true
-copyright = '&copy; Jeremie Passerin and Miquel Campos. All Rights Reserved.'
+copyright = '&copy; 2011-2018 Jeremie Passerin and Miquel Campos. 2018 The mGear Dev Organization. All Rights Reserved.'
 links = [
         ["icon-youtube", "https://www.youtube.com/c/mgearriggingframework"],
         ["icon-social-github", "https://github.com/mgear-dev"]
