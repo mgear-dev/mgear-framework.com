@@ -60,7 +60,7 @@ img = "img_7.jpg"
 [[params.intro.item]]
 title = "Documentation"
 description = "API documentation and examples"
-url = "http://www.mgear-framework.com/mgear/"
+url = "http://www.mgear-framework.com/mgear_dist/"
 button = "Official Docs"
 icon = "icon-book-open"
 img = "img_8.jpg"
@@ -133,7 +133,13 @@ title = "Testimonials"
   quote = "&ldquo;Miquel did an amazing job making mGear a solid Production tool. I am delighted to see it running smoothly in Maya. Softimage User will be delighted to find their favorite Rig Builder in Maya. Maya user will be amazed how MGear is solid and flexible. Gear has been used in production all around the world since 2010 and changed the life of many riggers and animators, I have no doubt that mGear will have the same success. Do I need to mention it’s free and open source ?&rdquo;"
   person = 'Jeremie Passerin, Technical Animation Supervisor at  <a href="http://www.blur.com/" target="_blank">Blur Studio</a> <span class="subtext">Technical Director</span>'
   img = "jeremie_avatar.jpg"
-  alt = "Person2"
+  alt = "Jeremie Passerin"
+
+[[params.testimonials.item]]
+  quote = "&ldquo;mGear has proven to be a stable, efficient solution for our rigging pipeline. It's flexible enough that we've used it on cartoony series such as Zafari, and also for game cinematics such as Ubisoft’s Tom Clancy's Rainbow Six Siege.  It's very straightforward, so the learning curve isn't extremely steep for onboarding new artists, and there aren't a lot of clicks and/or steps to get you from template to build. This may seem inconsequential, but in a production environment where deadlines can be tight, this is quite essential. Under the hood, there's also  quite a number of attributes available that allow you adjust the rig to your needs. Miquel has been a delight to work with any time that we've had questions, or flagged concerns, and I really wouldn't hesitate to recommend this product to any studio or personal user. &rdquo;"
+  person = 'Alicia Carvalho,  Rigging Supervisor at <a href="http://www.digitaldimension.com/ " target="_blank">Digital Dimenions/Meduzarts</a> <span class="subtext">Digital Dimenions/Meduzarts</span>'
+  img = "digitaldimension.png"
+  alt = "Alicia Carvalho"
 
  [[params.testimonials.item]]
   quote = "&ldquo;In our studio we  work on huge shows, and mgear has proven itself extremely reliable, fast and simple! The framework enables our riggers to keep iterate and improve even on the most complicated rigs very quickly, so we don't need to compromise on our animation quality..&rdquo;"
@@ -296,7 +302,7 @@ button = "Send message"
 # Footer section
 [params.footer]
 enable = true
-copyright = '&copy; 2011-2018 Jeremie Passerin and Miquel Campos. 2018 The mGear Dev Organization. All Rights Reserved.'
+copyright = '&copy; 2011-2018 Jeremie Passerin and Miquel Campos. 2018-2019 The mGear Dev Organization. All Rights Reserved.'
 links = [
         ["icon-youtube", "https://www.youtube.com/c/mgearriggingframework"],
         ["icon-social-github", "https://github.com/mgear-dev"]
