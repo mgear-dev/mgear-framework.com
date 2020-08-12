@@ -44,6 +44,10 @@ contact = "Contact"
 [params.hero]
 title = "mGear Framework"
 subtitle = "Open source rigging and animation framework for Autodesk&reg; Maya&reg;."
+sponsor = "Sponsored by: "
+
+
+
 
 # Intro section
 # Available icons: http://simplelineicons.com/
@@ -202,11 +206,12 @@ description = "mGear is an open source project started by Jeremie Passerin and c
   [[params.about.item]]
     name = "Miquel Campos"
     position = "Lead Developer"
-    description = "Rigging supervisor at <a href=\"http://www.studioanima.co.jp/\" target=\"_blank\">Studio Anima</a>. mGear's Maintainer & Lead Developer. His mantra is: \"Characters+Animation+Storytelling\""
+    description = "Rigging supervisor at <a href=\"http://www.studioanima.co.jp/\" target=\"_blank\">Studio Anima</a> and Animation Filmmaker by night. mGear's Maintainer & Lead Developer."
     img = "miquel_avatar.jpg"
     alt = "Miquel Campos"
     social = [
       ["icon-twitter", "https://twitter.com/MiquelCamposTD"],
+      ["icon-instagram", "https://www.instagram.com/miquel.campos/"],
       ["icon-link", "http://www.miquel-campos.com/"]
     ]
   [[params.about.item]]
@@ -223,11 +228,20 @@ description = "mGear is an open source project started by Jeremie Passerin and c
   [[params.about.item]]
     name = "Jerome Drese"
     position = "Developer"
-    description = "Head of rigging at <a href=\"http://grid-vfx.com/\" target=\"_blank\">Grid-VFX</a>. Focusing on animation needs and building the rigging pipeline."
+    description = "Senior Rigging and Pipeline TD working for several studios. Love to share riggers everyday work hacks."
     img = "jerome_avatar.jpg"
     alt = "Jerome Drese"
     social = [
       ["icon-link", "http://www.jerome3d.be/"]
+    ]
+  [[params.about.item]]
+    name = "Chris Lesage"
+    position = "Community Manager & Developer"
+    description = "Rigging TD at <a href=\"http://rigmarolestudio.com/\" target=\"_blank\">Rigmarole Studio</a> . Building rigs and pipeline tools for animators in film and games."
+    img = "chris_lesage.jpg"
+    alt = "Chris Lesage"
+    social = [
+      ["icon-link", "http://www.rigmarolestudio.com/"]
     ]
   [[params.about.item]]
     name = "You?"
@@ -249,7 +263,7 @@ background = "full_image_1.jpg"
   icon = "icon-briefcase"
   from = 0
   to = 89
-  interval = 50
+  interval = 50 
   speed = 5000
 
 [[params.counters.item]]
@@ -287,7 +301,7 @@ description = "Don't hesitate to contact us anytime, but please, read the contac
 # Available icons: http://simplelineicons.com/
 details = [
 	["icon-notebook", "CONTACT CRITERIA:"],
-    ["icon-question", "For general user questions, bug reports and feedback, please use the <a href=\"http://forum.mgear-framework.com/\" target=\"_blank\">Forum</a>."],
+    ["icon-question", "**For general user questions, support, bug reports and feedback, please use the Forum:** <a href=\"http://forum.mgear-framework.com/\" target=\"_blank\">http://forum.mgear-framework.com</a>"],
     ["icon-question", "mGear is free and open source, under MIT license. At this point we can't guarantee any support."],
     ["icon-question", "For any business related inquiries, or if you wish to contribute to development. Use this form."],
     ["icon-exclamation", "Please understand that due the high volume of traffic there may be a delay in our reply."]
@@ -302,7 +316,7 @@ button = "Send message"
 # Footer section
 [params.footer]
 enable = true
-copyright = '&copy; 2011-2018 Jeremie Passerin and Miquel Campos. 2018-2019 The mGear Dev Organization. All Rights Reserved.'
+copyright = '&copy; 2011-2020 Jeremie Passerin and Miquel Campos. 2018-2020 The mGear Dev Organization. All Rights Reserved.'
 links = [
         ["icon-youtube", "https://www.youtube.com/c/mgearriggingframework"],
         ["icon-social-github", "https://github.com/mgear-dev"]
