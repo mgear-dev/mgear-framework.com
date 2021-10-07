@@ -31,6 +31,10 @@ contact = "Contact"
 #  weight = 10
 
 # postpended links
+#[[menu.postpend]]
+ #url = "https://www.mcsgear.com/services"
+ #name = "mcsGear.com"
+ #weight = 9
 [[menu.postpend]]
  url = "http://forum.mgear-framework.com/"
  name = "Forum"
@@ -44,7 +48,7 @@ contact = "Contact"
 [params.hero]
 title = "mGear Framework"
 subtitle = "Open source rigging and animation framework for Autodesk&reg; Maya&reg;."
-sponsor = "Sponsored by: "
+# sponsor = "Sponsored by: "
 
 
 
@@ -64,7 +68,7 @@ img = "img_7.jpg"
 [[params.intro.item]]
 title = "Documentation"
 description = "API documentation and examples"
-url = "http://www.mgear-framework.com/mgear_dist/"
+url = "https://mgear4.readthedocs.io/en/latest/"
 button = "Official Docs"
 icon = "icon-book-open"
 img = "img_8.jpg"
@@ -72,7 +76,7 @@ img = "img_8.jpg"
 [[params.intro.item]]
 title = "Get it!"
 description = 'mGear is totally free and open source. But your money could still be helpful somewhere else. Please consider a donation to <a href="https://dons.medecinsdumonde.org/b/my-donation" target="_blank">Medecins du Monde</a>.'
-url = "https://github.com/mgear-dev/mgear_dist/releases"
+url = "https://github.com/mgear-dev/mgear4/releases"
 button = "Download"
 icon = "icon-cloud-download"
 img = "img_10.jpg"
@@ -86,7 +90,7 @@ url = "https://vimeo.com/channels/staffpicks/93951774"
 
 # Work section
 [params.work]
-enable = true
+enable = false
 title = "Works using mGear"
 description = 'Production showcase from mGear users. Watch more samples and videos in the <a href="http://forum.mgear-framework.com/c/finished-work" target="_blank">Forum Finished Work category</a> '
 footertext = '** All images are copyright &copy; to their respective owners'
@@ -174,28 +178,29 @@ title = "Testimonials"
 
 # Services section
 [params.services]
-enable = false
+enable = true
 title = "Services"
-description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+description = "Services and support for mGear users by Miquel Campos at: **www.mcsGear.com**"
 
 [[params.services.item]]
-  title = "Brand &amp; Strategy"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-  icon = "icon-anchor"
+  title = "Project Bootstrapping"
+  description = 'Using mGear framework as a starting point, I will help you establish a flexible and reliable character creation pipeline for your Film, Game, or Animation Series project.'
+  icon = "icon-settings"
 
 [[params.services.item]]
-  title = "Web &amp; Interface"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  title = "Custom Development"
+  description = "mGear has many tools and modular components to create your characters’ rigs. But every project has its own needs and specifications. Custom development can help fit mGear better in your pipeline nor cover edge cases specific to your project."
   icon = "icon-layers2"
+
 [[params.services.item]]
-  title = "Photo &amp; Video"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-  icon = "icon-video2"
+  title = "Consulting &amp; Support"
+  description = "Are you using mGear in your project? I can help you solve any question and fixing priority bugs for your project. With a support contract, you will influence mGear’s future development and features."
+  icon = "icon-speech"
 
   [[params.services.item]]
-  title = "CMS &amp; eCommerce"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-  icon = "icon-monitor"
+  title = "Training"
+  description = "Do you want to adopt mGear in your studio or already did it? Custom training for your team can help you to get the most of mGear Framework."
+  icon = "icon-graduation"
 
 # About section
 [params.about]
@@ -206,13 +211,13 @@ description = "mGear is an open source project started by Jeremie Passerin and c
   [[params.about.item]]
     name = "Miquel Campos"
     position = "Lead Developer"
-    description = "Rigging supervisor at <a href=\"http://www.studioanima.co.jp/\" target=\"_blank\">Studio Anima</a> and Animation Filmmaker by night. mGear's Maintainer & Lead Developer."
-    img = "miquel_avatar.jpg"
+    description = "Character TD consultant and mGear's Lead Developer. Offering services and support for mGear users"
+    img = "miquel_pic.png"
     alt = "Miquel Campos"
     social = [
-      ["icon-twitter", "https://twitter.com/MiquelCamposTD"],
-      ["icon-instagram", "https://www.instagram.com/miquel.campos/"],
-      ["icon-link", "http://www.miquel-campos.com/"]
+      ["icon-linkedin", "https://www.linkedin.com/in/miqueltd/"],
+      ["icon-twitter", "https://twitter.com/mGear_Framework"],
+      ["icon-link", "http://www.mcsgear.com/"]
     ]
   [[params.about.item]]
     name = "Rafael Villar"
@@ -244,6 +249,16 @@ description = "mGear is an open source project started by Jeremie Passerin and c
       ["icon-link", "http://www.rigmarolestudio.com/"]
     ]
   [[params.about.item]]
+    name = "Jascha Wohlkinger"
+    position = "Developer"
+    description = "Rigging TD/Technical Artist in the Gaming Industry. Rigging, Tools, Custom Plugins and Pipeline Development. Previous experience in Feature Animation and VFX.."
+    img = "jascha_pic.png"
+    alt = "Jascha Wohlkinger"
+    social = [
+      ["icon-linkedin", "https://www.linkedin.com/in/jascha-wohlkinger/"],
+      ["icon-twitter", "https://twitter.com/JaschaWoh"]
+    ]
+  [[params.about.item]]
     name = "You?"
     position = "Next Contributor"
     description = "mGear community is always open to new contributors to help with the development."
@@ -263,7 +278,7 @@ background = "full_image_1.jpg"
   icon = "icon-briefcase"
   from = 0
   to = 89
-  interval = 50 
+  interval = 50
   speed = 5000
 
 [[params.counters.item]]
@@ -300,11 +315,10 @@ description = "Don't hesitate to contact us anytime, but please, read the contac
 
 # Available icons: http://simplelineicons.com/
 details = [
-	["icon-notebook", "CONTACT CRITERIA:"],
-    ["icon-question", "**For general user questions, support, bug reports and feedback, please use the Forum:** <a href=\"http://forum.mgear-framework.com/\" target=\"_blank\">http://forum.mgear-framework.com</a>"],
-    ["icon-question", "mGear is free and open source, under MIT license. At this point we can't guarantee any support."],
-    ["icon-question", "For any business related inquiries, or if you wish to contribute to development. Use this form."],
-    ["icon-exclamation", "Please understand that due the high volume of traffic there may be a delay in our reply."]
+	["icon-notebook", "**CONTACT CRITERIA:**"],
+    ["icon-question", "For any business related inquiries, or if you wish to contribute to mGear's development. Please use this form or contact Miquel Campos at: <a href=\"www.mcsgear.com/\" target=\"_blank\">https://www.mcsGear.com</a>"],
+    ["icon-question", "For general user questions, free support, bug reports and feedback, please use the Forum: <a href=\"forum.mgear-framework.com/\" target=\"_blank\">http://forum.mgear-framework.com</a>"],
+    ["icon-question", "mGear is free and open source, under MIT license."]
   ]
 
 name = "Name"
@@ -316,8 +330,9 @@ button = "Send message"
 # Footer section
 [params.footer]
 enable = true
-copyright = '&copy; 2011-2020 Jeremie Passerin and Miquel Campos. 2018-2020 The mGear Dev Organization. All Rights Reserved.'
+copyright = '&copy; 2011-2018 Jeremie Passerin and Miquel Campos. 2018-2021 The mGear Dev Organization. All Rights Reserved.'
 links = [
         ["icon-youtube", "https://www.youtube.com/c/mgearriggingframework"],
-        ["icon-social-github", "https://github.com/mgear-dev"]
+        ["icon-social-github", "https://github.com/mgear-dev"],
+        ["icon-link", "http://www.mcsgear.com/"]
   ]
